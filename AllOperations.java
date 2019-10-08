@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.Math; 
 public class Main
 {
 	public static void main(String[] args) {
@@ -23,6 +24,9 @@ System.out.println(a+b);
 	    }
 	    else if (c.equals("*")){
 	        System.out.println(a*b);
+	    }
+	    else if (c.equals("^")){
+	        System.out.println(Math.pow(a,b));
 	    }
 	    else{
 	        System.out.print("Not Valid Operation");
